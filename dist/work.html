@@ -1,81 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Averia+Sans+Libre"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
-      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-      crossorigin="anonymous"
-    />
 
-    <link rel="stylesheet" href="css/main.css" />
-    <title>My Work</title>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link href="https://fonts.googleapis.com/css?family=Averia+Sans+Libre" rel="stylesheet" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+    integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous" />
 
-  <body>
-    <header>
-      <div class="menu-btn">
-        <div class="btn-line"></div>
-        <div class="btn-line"></div>
-        <div class="btn-line"></div>
+  <link rel="stylesheet" href="css/main.css" />
+  <title>My Work</title>
+</head>
+
+<body>
+  <header>
+    <div class="menu-btn">
+      <div class="btn-line"></div>
+      <div class="btn-line"></div>
+      <div class="btn-line"></div>
+    </div>
+
+    <nav class="menu">
+      <div class="menu-branding">
+        <div class="portrait"></div>
+      </div>
+      <ul class="menu-nav">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link"> Home </a>
+        </li>
+
+        <li class="nav-item">
+          <a href="work.html" class="nav-link"> My Work </a>
+        </li>
+        <li class="nav-item">
+          <a href="contact.html" class="nav-link"> Contact Me </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="about">
+    <h1 class="lg-heading">My <span class="text-secondary">Work</span></h1>
+    <h2 class="sm-heading"><br /></h2>
+    <div class="about-info">
+      <img src="img/diana.jpeg" alt="D V" class="bio-image" />
+
+      <div class="job job-1">
+        <h3>Breakout</h3>
+        <p>
+          Breakout is a playable classic arcade video game. Your mission is to destroy all the blocks using the ball
+          that will bounce back at you. You need to reflect it back by moving the paddle by pressing left or right on
+          your keybord.
+
+          https://lamarc.github.io/Breakout/
+        </p>
       </div>
 
-      <nav class="menu">
-        <div class="menu-branding"><div class="portrait"></div></div>
-        <ul class="menu-nav">
-          <li class="nav-item">
-            <a href="index.html" class="nav-link"> Home </a>
-          </li>
+      <div class="job job-2">
+        <h3>Crystal Collector Game</h3>
+        <p>
+          To start the game, simply click on a crystal.
 
-          <li class="nav-item">
-            <a href="work.html" class="nav-link"> My Work </a>
-          </li>
-          <li class="nav-item">
-            <a href="contact.html" class="nav-link"> Contact Me </a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+          The premise of the game is for the user to collect crystals with hidden values, and upon clicking them, their
+          values are added to a score box. Once a score is equivalent to the random target score determined at the
+          beginning of the game, the user wins.
 
-    <main id="about">
-      <h1 class="lg-heading">My <span class="text-secondary">Work</span></h1>
-      <h2 class="sm-heading"><br /></h2>
-      <div class="about-info">
-        <img src="img/diana.jpeg" alt="D V" class="bio-image" />
 
-        <div class="job job-1">
-          <h3>Wiki+Tube</h3>
-          <p>
-            Wiki+Tube is a search engine that saves the user time by returning both YouTube videos and a short Wikipedia article from a single search input. In addition to this, users can like a video and have the statistics of the number of likes persist upon page reload.
-          </p>
-        </div>
-
-        <div class="job job-2">
-          <h3>The Sizzling Griddle</h3>
-          <p>
-            A user will access our website, login and order a variety of food items (entrees, sides and drinks). The website will have several routes (Home/Contact Us/Menu/Cart). Also, each of these items will come from a SQL database and once the user orders it they will be able to pay online or pickup at the restaurant. The app will focus on two portions; The app will use authentication for the user to login, view the menu, place an order and provide payment, this triggers various operations from the backend to handle the user's requests' provide ongoing status updates to the user and giving them an ETA when the order would be complete.
-          </p>
-        </div>
-
-        <div class="job job-3">
-          <h3>Aurora</h3>
-          <p>
-            Project Aurora is about space and UFO related topics. We are going to be using NASA’s public API. Page 1 will be used to show any NASA image and video library search. Page 2 will display the Astronomy Picture of the Day. Page 3 will be streaming a live video feed of the Earth from the Space Station. Part 4 will be web scraping any Space or UFO related articles using cheerio and axios npm packages and MongoDB as our database.  
-
-          </p>
-        </div>
+          https://lamarc.github.io/Crystals-game/.
+        </p>
       </div>
-    </main>
 
-    <footer id="main-footer">Copyright &copy; 2018</footer>
+      <div class="job job-3">
+        <h3></h3>
+        <p>
+          
 
-    <script src="js/main.js"></script>
-  </body>
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <footer id="main-footer">Copyright &copy; 2018</footer>
+
+  <script src="js/main.js"></script>
+</body>
+
 </html>
