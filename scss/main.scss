@@ -39,7 +39,6 @@ h3 {
 
 a {
   color: #fff;
-  text-decoration: none;
 }
 
 header {
@@ -72,6 +71,7 @@ main {
 
   &#home {
     overflow: hidden;
+
     h1 {
       margin-top: 20vh;
     }
@@ -117,7 +117,7 @@ main {
   }
 }
 
-// Work/Projects
+// Work Projects
 .projects {
   display: grid;
   grid-gap: 0.7rem;
@@ -154,6 +154,7 @@ main {
       padding: 0.5rem 1.5rem;
       background: $secondary-color;
       color: set-text-color($secondary-color);
+
       span {
         color: set-text-color($secondary-color);
       }
@@ -167,6 +168,7 @@ main {
   padding: 0.5rem 1rem;
   border: 0;
   margin-bottom: 0.3rem;
+
   &:hover {
     background: $secondary-color;
     color: set-text-color($secondary-color);
