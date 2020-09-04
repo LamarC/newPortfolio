@@ -9,6 +9,6 @@
   "author": "Diana V Krause",
   "license": "ISC",
   "dependencies": {
-    "node-sass": "^4.11.0"
+    "node-sass": "^4.13.1"
   }
 }
